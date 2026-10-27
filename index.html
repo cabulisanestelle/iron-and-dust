@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IRON & DUST — Built Different</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="logo">IRON & DUST</a>
+      <ul class="nav-links">
+        <li><a href="#garage">THE GARAGE</a></li>
+        <li><a href="#journey">THE JOURNEY</a></li>
+        <li><a href="#essentials">THE ESSENTIALS</a></li>
+        <li><a href="#women">WOMEN'S</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#cart" id="cartLink">CART (<span id="cartCount">0</span>)</a></li>
+      </ul>
+      <button class="mobile-menu-toggle" id="menuToggle">☰</button>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <h1 class="hero-logo">IRON & DUST</h1>
+      <p class="hero-tagline">BUILT DIFFERENT</p>
+      <a href="#garage" class="btn primary-btn">SHOP COLLECTION</a>
+    </div>
+  </section>
+
+  <section id="about" class="section about-section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>BRAND STORY</h2>
+          <p>Iron & Dust is for the ones who build things. Not just in the garage, but in life. It's a mindset — hard work, freedom, creativity, and the belief that better things are built from the ground up.</p>
+          <p>Inspired by garage culture, road trips, mechanics, and the everyday grind. Iron & Dust creates premium streetwear for people who keep moving.</p>
+          <div class="values">
+            <span>HARD WORK</span>
+            <span>FREEDOM</span>
+            <span>COMMUNITY</span>
+            <span>AUTHENTICITY</span>
+          </div>
+        </div>
+        <div class="brand-details">
+          <h3>COLOR PALETTE</h3>
+          <div class="palette">
+            <div class="color-swatch"><div class="swatch black"></div>Iron Black</div>
+            <div class="color-swatch"><div class="swatch charcoal"></div>Charcoal</div>
+            <div class="color-swatch"><div class="swatch white"></div>Dust White</div>
+            <div class="color-swatch"><div class="swatch sand"></div>Sand</div>
+            <div class="color-swatch"><div class="swatch olive"></div>Dust Olive</div>
+            <div class="color-swatch"><div class="swatch stone"></div>Weathered Stone</div>
+          </div>
+          <h3>EST. 2025 • MANILA, PHILIPPINES</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="garage" class="section collection-section dark-section">
+    <div class="container">
+      <div class="collection-header">
+        <span class="collection-num">COLLECTION 01</span>
+        <h2>THE GARAGE</h2>
+        <p>Tools. Machines. People. A tribute to garage culture, inspired by mechanics, builders, and the everyday grind.</p>
+      </div>
+      <div class="products-grid">
+        <div class="product-card">
+          <div class="product-img"><img src="product-1.jpg" alt="Signature Tee Black"></div>
+          <h3>SIGNATURE TEE — BLACK</h3>
+          <p class="product-desc">Premium oversized fit. Garment-dyed wash.</p>
+          <p class="colors">Iron Black</p>
+          <p class="price">₱1,200</p>
+          <button class="add-to-cart" data-id="g1" data-name="Signature Tee — Black" data-price="1200">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+          <div class="product-img"><img src="product-2.jpg" alt="Horizon Tee Black"></div>
+          <h3>HORIZON TEE — BLACK</h3>
+          <p class="product-desc">"BUILT BY CONTRAST. MADE TO LAST."</p>
+          <p class="colors">Iron Black</p>
+          <p class="price">₱1,200</p>
+          <button class="add-to-cart" data-id="g2" data-name="Horizon Tee — Black" data-price="1200">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+          <div class="product-img"><img src="product-3.jpg" alt="Signature Tee Sand"></div>
+          <h3>SIGNATURE TEE — SAND</h3>
+          <p class="product-desc">Relaxed fit. Vintage wash finish.</p>
+          <p class="colors">Sand / Dust White</p>
+          <p class="price">₱1,200</p>
+          <button class="add-to-cart" data-id="g3" data-name="Signature Tee — Sand" data-price="1200">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+          <div class="product-img"><img src="product-4.jpg" alt="Vertical Logo Tee"></div>
+          <h3>VERTICAL LOGO TEE</h3>
+          <p class="product-desc">Clean front design. Premium heavyweight cotton.</p>
+          <p class="colors">Charcoal</p>
+          <p class="price">₱1,200</p>
+          <button class="add-to-cart" data-id="g4" data-name="Vertical Logo Tee" data-price="1200">ADD TO CART</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="journey" class="section collection-section">
+    <div class="container">
+      <div class="collection-header">
+        <span class="collection-num">COLLECTION 02</span>
+        <h2>THE JOURNEY</h2>
+        <p>Places. Perspectives. Progress. Different roads, same purpose.</p>
+      </div>
+      <div class="products-grid">
+        <div class="product-card">
+          <div class="product-img"><img src="product-5.jpg" alt="Different Roads Hoodie"></div>
+          <h3>DIFFERENT ROADS HOODIE</h3>
+          <p class="product-desc">"DIFFERENT ROADS. SAME PURPOSE." Heavyweight fleece.</p>
+          <p class="colors">Iron Black</p>
+          <p class="price">₱1,800</p>
+          <button class="add-to-cart" data-id="j1" data-name="Different Roads Hoodie" data-price="1800">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+          <div class="product-img"><img src="product-6.jpg" alt="Core Hoodie & Cap"></div>
+          <h3>CORE HOODIE + GLOBE CAP BUNDLE</h3>
+          <p class="product-desc">Minimal logo hoodie + structured cap.</p>
+          <p class="colors">Charcoal / Sand</p>
+          <p class="price">₱2,300</p>
+          <button class="add-to-cart" data-id="j2" data-name="Core Hoodie + Globe Cap" data-price="2300">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+          <div class="product-img"><img src="product-7.jpg" alt="Horizon Tee Sand"></div>
+          <h3>HORIZON TEE — SAND</h3>
+          <p class="product-desc">Frayed hem detail. Vintage mineral wash.</p>
+          <p class="colors">Sand / Dust White</p>
+          <p class="price">₱1,300</p>
+          <button class="add-to-cart" data-id="j3" data-name="Horizon Tee — Sand" data-price="1300">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+          <div class="product-img"><img src="product-8.jpg" alt="Terrain Tee Olive"></div>
+          <h3>TERRAIN TEE — DUST OLIVE</h3>
+          <p class="product-desc">"DIFFERENT ROADS. SAME PURPOSE."</p>
+          <p class="colors">Dust Olive</p>
+          <p class="price">₱1,300</p>
+          <button class="add-to-cart" data-id="j4" data-name="Terrain Tee — Dust Olive" data-price="1300">ADD TO CART</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="essentials" class="section collection-section dark-section">
+    <div class="container">
+      <div class="collection-header">
+        <span class="collection-num">COLLECTION 03</span>
+        <h2>THE ESSENTIALS</h2>
+        <p>Same soul. Everyday. Clean, versatile pieces.</p>
+      </div>
+      <div class="products-grid">
+        <div class="product-card">
+          <div class="product-img"><img src="product-9.jpg" alt="Core Logo Hoodie"></div>
+          <h3>CORE LOGO HOODIE</h3>
+          <p class="product-desc">Understated. Premium heavyweight fleece.</p>
+          <p class="colors">Iron Black</p>
+          <p class="price">₱1,800</p>
+          <button class="add-to-cart" data-id="e1" data-name="Core Logo Hoodie" data-price="1800">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+          <div class="product-img"><img src="product-6.jpg" alt="Essential Cap"></div>
+          <h3>ESSENTIAL CAP — WEATHERED STONE</h3>
+          <p class="product-desc">Low-profile. Garment-washed cotton.</p>
+          <p class="colors">Weathered Stone / Charcoal</p>
+          <p class="price">₱750</p>
+          <button class="add-to-cart" data-id="e2" data-name="Essential Cap — Weathered Stone" data-price="750">ADD TO CART</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="women" class="section collection-section">
+    <div class="container">
+      <div class="collection-header">
+        <span class="collection-num">WOMEN'S COLLECTION</span>
+        <h2>SAME SOUL. DIFFERENT FIT.</h2>
+        <p>Designed for comfort, confidence, and the freedom to be yourself.</p>
+      </div>
+      <div class="products-grid">
+        <div class="product-card">
+          <div class="product-img"><img src="product-1.jpg" alt="Women Signature Tee"></div>
+          <h3>SIGNATURE TEE — RELAXED FIT</h3>
+          <p class="product-desc">Oversized comfortable silhouette.</p>
+          <p class="colors">Iron Black</p>
+          <p class="price">₱1,200</p>
+          <button class="add-to-cart" data-id="w1" data-name="Women's Signature Tee" data-price="1200">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+          <div class="product-img"><img src="product-3.jpg" alt="Women Sand Tee"></div>
+          <h3>SIGNATURE TEE — SAND</h3>
+          <p class="product-desc">Vintage wash. Relaxed fit.</p>
+          <p class="colors">Sand / Dust White</p>
+          <p class="price">₱1,200</p>
+          <button class="add-to-cart" data-id="w2" data-name="Women's Signature Tee — Sand" data-price="1200">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+          <div class="product-img"><img src="product-10.jpg" alt="Core Ribbed Tank"></div>
+          <h3>CORE RIBBED TANK</h3>
+          <p class="product-desc">Fitted premium ribbed fabric.</p>
+          <p class="colors">Iron Black</p>
+          <p class="price">₱950</p>
+          <button class="add-to-cart" data-id="w3" data-name="Women's Core Ribbed Tank" data-price="950">ADD TO CART</button>
+        </div>
+        <div class="product-card">
+          <div class="product-img"><img src="product-9.jpg" alt="Women Essential Hoodie"></div>
+          <h3>ESSENTIAL HOODIE</h3>
+          <p class="product-desc">Oversized fit. Cozy fleece interior.</p>
+          <p class="colors">Iron Black</p>
+          <p class="price">₱1,800</p>
+          <button class="add-to-cart" data-id="w4" data-name="Women's Essential Hoodie" data-price="1800">ADD TO CART</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="cart" class="section cart-section dark-section">
+    <div class="container">
+      <h2>YOUR CART</h2>
+      <div id="cartItems" class="cart-items">
+        <p class="empty-cart">Your cart is empty — start shopping below! 🛍️</p>
+      </div>
+      <div class="cart-summary">
+        <p class="subtotal">Subtotal: <span id="subtotal">₱0</span></p>
+        <p class="shipping">Shipping: <span id="shipping">₱0</span></p>
+        <p class="total">Total: <span id="grandTotal">₱0</span></p>
+        <button id="checkoutBtn" class="btn primary-btn">PROCEED TO CHECKOUT</button>
+      </div>
+    </div>
+  </section>
+
+  <div id="checkoutModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3>CHECKOUT</h3>
+      <form id="checkoutForm">
+        <label>Full Name</label>
+        <input type="text" id="fullName" required>
+        <label>Contact Number</label>
+        <input type="tel" id="contact" required>
+        <label>Delivery Address</label>
+        <textarea id="address" rows="3" required></textarea>
+        <label>Payment Method</label>
+        <select id="payment">
+          <option value="gcash">GCash</option>
+          <option value="cod">Cash on Delivery</option>
+          <option value="bank">Bank Transfer</option>
+        </select>
+        <button type="submit" class="btn confirm-btn">CONFIRM ORDER</button>
+      </form>
+    </div>
+  </div>
+
+  <div id="confirmModal" class="modal">
+    <div class="modal-content">
+      <h3>✅ ORDER CONFIRMED!</h3>
+      <p>Thank you for choosing Iron & Dust.</p>
+      <p>We'll contact you within 24 hours to arrange delivery.</p>
+      <button id="closeConfirm" class="btn primary-btn">CONTINUE SHOPPING</button>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <h3>IRON & DUST</h3>
+      <p>Premium streetwear. Made to last.</p>
+      <p>Manila, Philippines • Worldwide Shipping</p>
+      <div class="footer-links">
+        <a href="#garage">Shop</a>
+        <a href="#about">Our Story</a>
+        <a href="#">Size Guide</a>
+        <a href="#">Shipping & Returns</a>
+      </div>
+      <p class="copyright">© 2026 Iron & Dust. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
